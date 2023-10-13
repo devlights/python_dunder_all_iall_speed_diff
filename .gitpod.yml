@@ -1,10 +1,12 @@
-# Image of workspace. Learn more: https://www.gitpod.io/docs/configure/workspaces/workspace-image
 image: gitpod/workspace-full:latest
 
 tasks:
   - name: initial
-    init:
-      go install github.com/go-task/task/v3/cmd/task@latest &&
-      brew install hyperfine
-    command:
-      python --version
+    init: go install github.com/go-task/task/v3/cmd/task@latest &&
+      brew install hyperfine &&
+      python -m pip install bpython
+    command: python --version
+
+vscode:
+  extensions:
+    - ms-python.python

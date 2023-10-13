@@ -1,5 +1,15 @@
 # python_dunder_all_iall_speed_diff
 
+## Environment
+
+```sh
+$ python -m bpython
+bpython version 0.24 on top of Python 3.12.0 /home/gitpod/.pyenv/versions/3.12.0/bin/python
+>>> import sys
+>>> sys.executable
+'/home/gitpod/.pyenv/versions/3.12.0/bin/python'
+```
+
 ## Run
 
 ```sh
