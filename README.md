@@ -30,5 +30,6 @@ Summary
 
 ## REFERENCES
 
+- [hyperfine](https://github.com/sharkdp/hyperfine)
 - [a=a+b and a+=b are not always same in Python](https://twitter.com/Python_Dv/status/1709887657088598413?s=20)
 - [Different behaviour for list.__iadd__ and list.__add__](https://stackoverflow.com/questions/9766387/different-behaviour-for-list-iadd-and-list-add)
