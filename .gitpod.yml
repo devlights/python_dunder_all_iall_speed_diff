@@ -6,7 +6,3 @@ tasks:
       brew install hyperfine &&
       python -m pip install bpython
     command: python --version
-
-vscode:
-  extensions:
-    - ms-python.python
